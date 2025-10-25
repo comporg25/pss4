@@ -1,4 +1,3 @@
-```c
 #include "stdio.h"
 
 void function(int a, int b, int c) {
@@ -120,4 +119,3 @@ void main() {
   x = 1;
   printf("%d\n",x);
 }
-```
