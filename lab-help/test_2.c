@@ -45,7 +45,6 @@ ret = (int*)((char*)&a + 28);
    So `(*ret) += 7;` corresponds to adding that 7-byte delta observed between the instruction
    addresses 0x118f and 0x1196 in this specific build.
 
-   Caution: All of this depends on a particular stack-frame layout and is non-portable/unsafe.
 */
 }
 
