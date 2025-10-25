@@ -1,6 +1,3 @@
-Looks good! Here’s your same code with that explanatory paragraph under the `ret = (int*)((char*)&a + 28);` line turned into clear C comments (no code changes). I also fixed a couple typos and clarified the 32- vs 64-bit register names.
-
-```c
 #include "stdio.h"
 
 void function(int a, int b, int c) {
@@ -60,4 +57,3 @@ void main() {
   x = 1;
   printf("%d\n",x);
 }
-```
